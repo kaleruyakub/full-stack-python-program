@@ -1,0 +1,305 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "c4bd5cc3-9029-453e-bc26-daf3fee06915",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "banana\n",
+      "['apple', 'banana', 'mango', 'orange']\n"
+     ]
+    }
+   ],
+   "source": [
+    "fruits=[\"apple\",\"banana\",\"mango\"] \n",
+    "fruits.append(\"orange\")\n",
+    "print(fruits[1])\n",
+    "print(fruits)"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "81ac4b42-7d20-41da-9b9b-2ed82195d872",
+   "metadata": {},
+   "source": [
+    "print(fruits[1])"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "dcf964fb-57c6-4e80-a210-6405a8a75db7",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "4635440b-eecf-441c-a352-eb564a34768b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['banana', 'mango', 'orange']\n"
+     ]
+    }
+   ],
+   "source": [
+    "fruits=[\"apple\",\"banana\",\"mango\"]\n",
+    "fruits.append(\"orange\")\n",
+    "fruits.remove(\"apple\")\n",
+    "fruits.sort()\n",
+    "print(fruits)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "0c41d602-17a0-462d-ac0b-27ce735dc3cd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "red\n"
+     ]
+    }
+   ],
+   "source": [
+    "colors=(\"red\",\"green\",\"blue\")\n",
+    "print(colors[0])\n",
+    "#colors[1]=\"yellow\"\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "8f4cf49f-7c7e-4e30-9054-47de89709431",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{1, 2, 3, 4, 5}\n"
+     ]
+    }
+   ],
+   "source": [
+    "numbers={1,2,3,3,4}\n",
+    "numbers.add(5)\n",
+    "print(numbers)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "bd60497e-d258-4b1e-b30d-92a470a6e4c8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "yakub\n",
+      "{'name': 'bunny', 'age': 18, 'course': 'python full stack'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "student={\n",
+    "    \"name\":\"yakub\",\n",
+    "    \"age\":18,\n",
+    "    \"course\":\"python full stack\"\n",
+    "}\n",
+    "print(student[\"name\"])\n",
+    "student[\"name\"]=\"bunny\"\n",
+    "print(student)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "de7008df-686f-4685-bcf6-8d25bc6f8d57",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "dict_keys(['name', 'age', 'course', 'college'])\n",
+      "dict_values(['yakub', 18, 'python full stack', 'avinash college of commerce'])\n"
+     ]
+    }
+   ],
+   "source": [
+    "student={\n",
+    "    \"name\":\"yakub\",\n",
+    "    \"age\":18,\n",
+    "    \"course\":\"python full stack\"\n",
+    "}\n",
+    "student[\"college\"]=\"avinash college of commerce\"\n",
+    "print(student.keys())\n",
+    "print(student.values())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "725aa678-b336-4888-9689-4097f7b5ce1c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "grade:A\n"
+     ]
+    }
+   ],
+   "source": [
+    "marks=90\n",
+    "if marks>=90:\n",
+    " print(\"grade:A\")\n",
+    "elif marks>=75:\n",
+    "    print(\"grade:B\")\n",
+    "elif marks>=50:\n",
+    "    print(\"grade:C\")\n",
+    "else:\n",
+    "    print(\"grade:fail\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "26a53520-3fbe-4018-99dd-f49d5190a781",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "number: 3\n",
+      "number: 4\n",
+      "number: 5\n",
+      "number: 6\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(3,7):\n",
+    "    print(\"number:\",i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "26089b16-9148-4275-95a9-e93c29d9f745",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "count: 1\n",
+      "count: 2\n",
+      "count: 3\n",
+      "count: 4\n",
+      "count: 5\n",
+      "count: 6\n",
+      "count: 7\n",
+      "count: 8\n",
+      "count: 9\n"
+     ]
+    }
+   ],
+   "source": [
+    "count=1\n",
+    "while count<=9:\n",
+    "    print(\"count:\",count)\n",
+    "    count=count+1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d9eb97ff-8eb8-4d44-ac8b-e39c9cc64055",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "for i in range(1,10):\n",
+    "    if i==3: \n",
+    "        \n",
+    "        print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "936fcb7e-053c-47c3-af41-f88d6c6c92a3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "14baf0f2-81d9-42fd-86f7-a3556f416f1b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e7bacf9c-f910-423d-a98c-0524a4bbc2c6",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a8169cb6-ff98-416c-a25c-d83a9553f9cc",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6ecc1b34-c7f8-4171-9c4e-7badb7162b66",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
